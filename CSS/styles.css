@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -22,8 +25,8 @@ header {
 
 .webtitle { 
   margin-top: 0px;
-  font-size: 45px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 55px;
+  font-family: 'Dancing Script', cursive;
 }
 
 .logo {
@@ -39,7 +42,9 @@ ul {
 }
 
 li{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
   padding: 0px 10px 0px 10px;
 }
 
@@ -47,7 +52,7 @@ a {
   text-decoration: none;
 }
 
-.mainc{
+.mainhome{
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -64,26 +69,16 @@ section {
   margin: 10px;
   background-color: rgb(197, 255, 230);
 }
-
 /* Section specific CSS
 .left {
-  border: 2px solid black;
-  padding: 20px 30px 20px;
-  margin: 25px;
-  background-color: rgb(6, 197, 115);
+
 }
 
 .mid {
-  border: 2px solid black;
-  padding: 20px 30px 20px;
-  margin: 25px;
-  background-color: rgb(6, 197, 115);
+
 }
 .right {
-  border: 2px solid black;
-  padding: 20px 30px 20px;
-  margin: 25px;
-  background-color: rgb(6, 197, 115);
+
 }
 */
 
@@ -109,6 +104,54 @@ section {
   width: 100%;
 }
 
+/*photos*/
+
+.mainone{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.maintwo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.mainthree{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/*literature*/
+
+.mainlit{
+  display: block;
+  margin: auto;
+  max-width: 1000px;
+  margin-top: 10px;
+}
+
+.leftlit {
+  max-width: 1px;
+}
+
+form {
+  padding:5px;
+}
+
+.bdiv {
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
 @media screen and (max-width: 600px) {
   .webtitle { 
     margin-top: 0px;
@@ -132,7 +175,7 @@ section {
     padding: 5px;
   }
 
-  .mainc{
+  .mainhome{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
