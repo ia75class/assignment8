@@ -1,5 +1,7 @@
+/*fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap');
 
 *{
   margin: 0;
@@ -10,6 +12,8 @@ body{
   background: #bcffc6;
   margin-top: 0%;
 }
+
+/*HOME*/
 
 header {
   background-color: rgb(197, 255, 230);
@@ -68,30 +72,18 @@ section {
   padding: 10px 15px 10px;
   margin: 10px;
   background-color: rgb(197, 255, 230);
+  min-width: 0;
 }
-/* Section specific CSS
-.left {
-
-}
-
-.mid {
-
-}
-.right {
-
-}
-*/
 
 .pano {
   margin: 10px;
 }
 
-.field img{
+.welcome img{
   width: 100%;
-  opacity: .75;
 }
 
-.cycle-slideshow img {
+.flower {
   width: 100%;
 }
 
@@ -104,44 +96,119 @@ section {
   width: 100%;
 }
 
-/*photos*/
+/*PHOTOS*/
 
-.mainone{
+/*succulents*/
+.smain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.stitle {
+  width: 25%;
+}
+
+.sslide {
+  width: 25%;
+}
+
+.center {
+  text-align: center;
+}
+
+.cycle-slideshow img {
+  width: 100%;
+}
+
+/*trees*/
+.tmain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.ttitle {
+  width: 25%;
+}
+
+.tslide {
+  width: 25%;
+}
+
+.center {
+  text-align: center;
+}
+
+/*flowers*/
+
+.fmain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.ftitle {
+  width: 25%;
+}
+
+.fslide {
+  width: 25%;
+}
+
+.center {
+  text-align: center;
+}
+
+/*ABOUT*/
+
+.amain {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 10px;
 }
 
-.maintwo{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 10px;
+.about {
+  font-family: 'Text Me One', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  width: 25%;
 }
 
-.mainthree{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 10px;
+.cat {
+  width: 20%;
 }
 
-/*literature*/
+/*LITERATURE*/
 
 .mainlit{
-  display: block;
   margin: auto;
   max-width: 1000px;
   margin-top: 10px;
 }
 
-.leftlit {
-  max-width: 1px;
+.lit {
+  font-family: 'Text Me One', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+/*CONTACT*/
+
+.formcont {
+  text-align: center;
 }
 
 form {
-  padding:5px;
+  text-align: center;
+  padding: 10px;
 }
 
 .bdiv {
@@ -152,7 +219,9 @@ form {
   text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 750px) {
   .webtitle { 
     margin-top: 0px;
     font-size: 25px;
