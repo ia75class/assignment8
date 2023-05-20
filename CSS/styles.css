@@ -11,6 +11,7 @@
 body{
   background: #bcffc6;
   margin-top: 0%;
+  margin-bottom:25px;
 }
 
 /*HOME*/
@@ -186,6 +187,10 @@ section {
   width: 20%;
 }
 
+.mcat1, .mcat2 {
+  display: none;
+}
+
 /*LITERATURE*/
 
 .mainlit{
@@ -222,6 +227,7 @@ form {
 /*MEDIA QUERIES*/
 
 @media screen and (max-width: 750px) {
+  /*header-nav*/
   .webtitle { 
     margin-top: 0px;
     font-size: 25px;
@@ -244,12 +250,67 @@ form {
     padding: 5px;
   }
 
+  /*home*/
   .mainhome{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     margin-top: 10px;
+  }
+
+  /*photos*/
+
+  .stitle {
+    width: 30%
+  }
+  .sslide {
+    width: 70%;
+    padding: 10px;
+  }
+
+  .ttitle {
+    width: 30%
+  }
+  .tslide {
+    width: 70%;
+    padding: 10px;
+  }
+
+  .ftitle {
+    width: 30%
+  }
+  .fslide {
+    width: 70%;
+    padding: 10px;
+  }
+
+  /*about*/
+
+  .amain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .cat {
+    display: none;
+  }
+
+  .mcat1 {
+    display: block;
+    width: 20%;
+  }
+
+  .mcat2 {
+    display: block;
+    width: 20%;
+  }
+
+  .about {
+    width: 50%;
   }
 
 }
